@@ -339,3 +339,57 @@ nav ul li a.active {
   margin-bottom: 1rem;
 }
 
+/* How it Works Section */
+.how-it-works {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background-color: #d5e5d5;
+  padding: 25px 20px;
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box .icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+  background-color: #eef1da;
+  border-radius: 12px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.feature-box h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.feature-box p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
