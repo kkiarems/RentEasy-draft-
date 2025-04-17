@@ -408,21 +408,45 @@ nav ul li a.active {
 
 .post-overlay-text {
   position: absolute;
-  top: 45%;
-  left: 10%;
+  top: 43.5%;
+  left: 6%;
   transform: translateY(-50%);
   opacity: 0.8;
   color: white;
-  font-size: 3.0em;
-  font-weight: bold;
+  font-size: 2.6rem;
+  font-weight: 400;
   letter-spacing: 1.2px;
   line-height: 1.2;
-}
-
-.post-overlay-text i {
-  font-size: 1.2em;
+  font-family: "Arial", sans-serif;
 }
 
 .post-overlay-text b {
-  font-size: 1.2em;
+  font-size: 2.4rem;
+  font-weight: 800;
+  font-family: "Arial", sans-serif;
+}
+
+.upload-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 15px; /* <-- This moves it to the right */
+  margin-top: 5px; /* <-- Moves it down */
+}
+
+.upload-btn:hover {
+  background-color: #333;
+}
+
+.upload-btn:active {
+  background-color: black;
+  transform: scale(0.98);
 }
